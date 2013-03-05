@@ -1,13 +1,13 @@
 /**
- * Displays random blocks in a container.
+ * Displays random blocks in a container. Blocks fade out on click.
  * Brian Fernalld
  * brianfernalld.com
  */
 
-//Block class - Shows a block in the browser
-
+//Number of blocks to display
 var blocks = 30;
 
+//Block class - Shows a block in the browser
 function Block(width, height, xaxis, yaxis, color, border, $parent){
   if (arguments.length < 5) {
     return false;
